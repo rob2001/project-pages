@@ -1,6 +1,6 @@
 # Site settings
-title: Portfolio
-description: "The Personal Projects of Robert Smith"
+title: Robert Smith
+description: "Bio, Blog, and Personal Projects"
 url: "https://rob2001.github.io"
 
 
@@ -10,7 +10,7 @@ url: "https://rob2001.github.io"
 baseurl: "/project-pages"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+# logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username:  rob2001
