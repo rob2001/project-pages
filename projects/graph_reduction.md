@@ -10,7 +10,7 @@ category: Graph Reduction
 
 Make your graphs pretty and user-friendly using simulated annealing and hill climbing. Just input the vertices and the edges which connect them, and PrettyGraphs will output the position of the vertices such that the graph is visually pleasant.
 
-![](/img/graph-reduction.png)
+![]({{site.baseurl}}/img/graph-reduction.png)
 
 ### Quick Demo
 To see the algorithms in action, simply run `$ python tests.py`. The algorithm will output the various states the graph goes through and then display two graphs: a randomly generated one (used as the initial state) and the final generated one.
