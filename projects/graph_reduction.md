@@ -2,7 +2,6 @@
 layout: project
 title: "Graph Reduction"
 description: "Graph Display via Simulated Annealing"
-header-img: "img/home-bg.jpg"
 category: Graph Reduction
 ---
 
