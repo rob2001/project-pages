@@ -1,3 +1,4 @@
+
 /**
  * A plugin which enables rendering of math equations inside
  * of reveal.js slides. Essentially a thin wrapper for MathJax.
@@ -7,14 +8,17 @@
 var RevealMath = window.RevealMath || (function(){
 
 	var options = Reveal.getConfig().math || {};
-	options.mathjax = options.mathjax || 'https://cdn.mathjax.org/mathjax/latest/MathJax.js';
+	options.mathjax = options.mathjax || 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js';
 	options.config = options.config || 'TeX-AMS_HTML-full';
 
 	loadScript( options.mathjax + '?config=' + options.config, function() {
 
 		MathJax.Hub.Config({
 			messageStyle: 'none',
-			tex2jax: { inlineMath: [['$','$'],['\\(','\\)']] },
+			tex2jax: {
+				inlineMath: [['$','$'],['\\(','\\)']] ,
+				skipTags: ['script','noscript','style','textarea','pre']
+			},
 			skipStartupTypeset: true
 		});
 
