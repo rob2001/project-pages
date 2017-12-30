@@ -18,8 +18,8 @@
   visible: false
   
 - name: Robert Smith
-  role: Intelligence Programmer, Systems enthusiast
+  role: Computer Science Undergrad, AI and Theory Nerd
   img: https://avatars0.githubusercontent.com/u/8504401?v=3&s=460
   github: rob2001
-  bio: I'm a fourth-year CS undergrad at the Georgia Institute of Technology. TODO compelling bio.
+  bio: I'm a fourth-year CS undergrad at the Georgia Institute of Technology, working on a BS in Computer Science and a Minor in Mathematics. I'm planning on pursuing a Master's in Computer Science starting Fall 2018. A lot of my research interests are in Probalistic Intelligence and in Type Theory. During my free time I'm either learning Italian, working on a cool new project or trying to enjoy my last year as an undergrad.
   visible: true
