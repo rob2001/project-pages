@@ -20,10 +20,10 @@
                 </li>
 				<li>
 					<div class="dropdown">
-						<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background:transparent;margin-top:5px;color:white;">
 							Projects
 						</button>
-						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background:transparent;padding-left:10px;padding-right:10px;">
 							{% for page in site.pages %}{% if page.url contains "projects/" %}{% if page.title %}
 							<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 							{% endif %}{% endif %}{% endfor %}
