@@ -9,17 +9,9 @@
   url: http://ahmetcecen.github.io/
   visible: false
    
-- name: David Brough
-  role: Data Scientist / Materials Informatics
-  img: https://avatars0.githubusercontent.com/u/4368625?v=3&s=460
-  github: davidbrough1
-  bio: David is a PhD student in the School of Computational Science and Engineering at Georgia Institute of Technology. David earned a Master’s degree in experimental condensed matter physics at Brigham Young University where he fabricated and characterized thin-films and carbon nanotubes used in nanostructured high capacity battery electrodes and in X-ray windows. As an undergraduate, David studied theoretical physics and researched the evolution of chaotic systems using neural networks at Westminster College. He is a trainee in the NSF IGERT FLAMEL program, and one of the lead developers on PyMKS materials informatics toolkit.
-  url: http://davidbrough.net 
-  visible: false
-  
 - name: Robert Smith
   role: Computer Science Undergrad, AI and Theory Nerd
   img: https://avatars0.githubusercontent.com/u/8504401?v=3&s=460
   github: rob2001
-  bio: I'm a fourth-year CS undergrad at the Georgia Institute of Technology, working on a BS in Computer Science and a Minor in Mathematics. I'm planning on pursuing a Master's in Computer Science starting Fall 2018. A lot of my research interests are in Probalistic Intelligence and in Type Theory. During my free time I'm either learning Italian, working on a cool new project or trying to enjoy my last year as an undergrad.
+  bio: I'm a fourth-year CS undergrad at the Georgia Institute of Technology, working on a BS in Computer Science and a Minor in Mathematics, on course for graduation May 2018. I'm planning on pursuing a Master's in Computer Science starting Fall 2018. A lot of my research interests are in Probalistic Intelligence and in Type Theory. During my free time I'm either learning Italian, working on a cool new project or trying to enjoy my last year as an undergrad.
   visible: true

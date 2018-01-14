@@ -18,11 +18,18 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
-				{% for page in site.pages %}{% if page.url contains "projects/" %}{% if page.title %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-                {% endif %}{% endif %}{% endfor %}
+				<li>
+					<div class="dropdown">
+						<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Projects
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							{% for page in site.pages %}{% if page.url contains "projects/" %}{% if page.title %}
+							<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+							{% endif %}{% endif %}{% endfor %}
+						</div>
+					</div>
+				</li>
                 {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
