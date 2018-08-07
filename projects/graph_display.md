@@ -1,8 +1,8 @@
 ---
 layout: project
-title: "Graph Reduction"
+title: "Graph Display"
 description: "Graph Display via Simulated Annealing"
-category: Graph Reduction
+category: Graph Display
 ---
 
 # PrettyGraphs
