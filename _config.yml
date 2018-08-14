@@ -16,8 +16,6 @@ headercolor: "#FFFFFF"
 github_username:  rob2001
 project_repository: project-pages
 disqus_shortname: project-pages
-#g-analytics: UA-75881392-1
-altmetric: false
 
 # Build settings
 gems: [jekyll-paginate]
