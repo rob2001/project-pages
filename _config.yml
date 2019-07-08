@@ -1,7 +1,7 @@
 # Site settings
 title: Robert Lawrence Smith
 description: "Bio, Blog, and Personal Projects"
-url: "https://robert-lawrence.me"
+url: "http://robert-lawrence.me"
 
 
 
@@ -13,16 +13,21 @@ headercolor: "#FFFFFF"
 # logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  rob2001
+github_username:  robert-lawrence
 project_repository: project-pages
 disqus_shortname: project-pages
 
 # Build settings
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate-v2]
+pagination:
+    enabled: true
+    collection: 'posts'
+    per_page: 10
+    permalink: '/page/:num/'
+
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "css/theme/README.md"]
 
 # Jekyll Settings
